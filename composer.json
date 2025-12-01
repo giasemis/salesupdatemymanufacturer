@@ -1,0 +1,30 @@
+{
+  "name": "giasemis/masspricefree",
+  "description": "Mass alter prices by percentage value",
+  "version": "1.2.2",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "MyPresta.eu",
+      "email": "support@mypresta.eu"
+    },
+    {
+      "name": "Giasemis",
+      "email": "info@netcraft.gr"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "prestashop/module-lib-service-container": "^1.4"
+  },
+  "autoload": {
+    "classmap": [
+      "masspricefree.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module"
+}
